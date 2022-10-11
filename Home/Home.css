@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.background-img {
+	width: 100%;
+	margin-top: 60px;
+}
+
+.header-btn:hover {
+	background-color: rgba(255, 167, 95, 0.5);
+}
+
+.explain-title {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.explain-massage {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 180%;
+	text-align: left;
+	color: grey;
+}
+
+.col-lg-4 {
+	text-align: center;
+}
+
+.btn-start {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: rgba(255, 167, 97);
+	border-color: orange;
+}
+
+.btn-start:hover {
+	background-color: rgba(252, 53, 22, 0.6);
+	border-color: rgba(252, 53, 22, 0.6);
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.lead {
+	font-weight: lighter;
+	color: rgb(82, 82, 82);
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
