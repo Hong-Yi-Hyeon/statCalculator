@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.linkSkills-job {
+	color: gray;
+}
+
+table {
+	margin: 40px auto;
+}
+
+.table-title {
+	margin-top: 22px;
+}
+
+td {
+	width: 300px;
+	padding: 10px;
+}
+
+.td-potential {
+	width: 550px;
+}
+
+.td-link {
+	width: 400px;
+}
+
+.rare {
+	color: skyblue;
+}
+
+.epic {
+	color: purple;
+}
+
+.unique {
+	color: rgb(234, 234, 0);
+}
+
+.legendary {
+	color: greenyellow;
+}
+
+.card-title {
+ 	text-align: center;
+ }
+ 
+ .card-img-top {
+ 	padding: 10px;
+ 	width: 130px;
+ 	height: 150px;
+ }

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+ }
+  
+ .StatCalculatorForm {
+	margin: 85px 130px;
+}
+ 
+ .row {
+ 	margin: 15px auto;
+ }
+ 
+ .card-img-top {
+ 	display: block;
+ 	margin: 0px auto;
+ 	margin-top: 15px;
+ 	width: 200px;
+ 	height: 200px;
+ }
+ 
+  .skill-img {
+ 	display: block;
+ 	margin: 0px auto;
+ 	margin-top: 20px;
+ 	width: 150px;
+ 	height: 150px;
+ }
+ 
+ .information_msg {
+ 	margin-top: 15px;
+ 	font-weight: bold;
+ }
+ 
+ .card {
+ 	margin: 5px 5px;
+ }
+ 
+ .card-title {
+ 	font-weight: bold;
+ 	text-align: center;
+ }
+ 
+ .card-body {
+ 	margin-top: 5px;
+ }
+ 
+ .card-text {
+ 	font-size: 12px;
+ }
+ 
+ .card-text2 {
+ 	text-align: center;
+ }
+ 
+ .inputData {
+ 	width: 185px;
+ 	height: 27px;
+ }
+ 
+ input::placeholder {
+ 	color: #dadada;
+ }
+ 
+ option {
+ 	font-size: 14px;
+ 	color: #4d4d4d;
+ }
+ 
+ input[type=checkbox],
+ input[type=radio] {
+ 	display: block;
+ 	margin: 0 auto;
+ 	margin-top: 30px;
+ 	border-radius: 100;
+ }
+ 
+ input[type=number] {
+ 	display: block;
+ 	margin: 0 auto;
+ }
+ 
+input[type=submit],
+input[type=reset] {
+	background-color: orange;
+	border: none;
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 80px;
+	height: 30px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+	background-color: #c48000;
+	transition-duration: 0.5s;
+}
